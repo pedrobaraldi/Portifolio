@@ -18,20 +18,4 @@ Este projeto é meu portfólio pessoal, criado para exibir minhas habilidades em
 - **API do Google** (para ícones e fontes)
 
 ## Objetivo:
-Este portfólio foi desenvolvido para demonstrar minhas habilidades e experiências como desenvolvedor front-end. Aqui, você pode conferir meus conhecimentos em tecnologias como HTML, CSS, JavaScript, além de ver meus projetos anteriores e entrar em contato comigo.
-
-# Passo a Passo - Rodando o Projeto Localmente
-
-Este guia fornece as instruções completas para rodar o projeto localmente na sua máquina, desde a abertura do CMD até a execução do código no **Live Server**.
-
-## 1. Abra o CMD (Prompt de Comando)
-
-- Pressione a tecla `Windows` no seu teclado e digite **CMD** na busca.
-- Clique em **Prompt de Comando** para abrir o terminal.
-
-## 2. Selecione o local onde o repositório será clonado
-
-Escolha a pasta onde deseja armazenar o projeto. Para exemplo, vamos usar a área de trabalho. No CMD, execute o seguinte comando para navegar até o local desejado:
-
-```bash
-cd Desktop  # Ou qualquer outro diretório de sua escolha
+Este portfólio foi desenvolvido para demonstrar minhas habilidades e experiências como desenvolvedor front-end. Aqui, você pode conferir meus conhecimentos em tecnologias como HTML, CSS, JavaScript, além de ver meus projetos anteriores e entrar em contato comigo
