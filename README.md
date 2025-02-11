@@ -20,40 +20,18 @@ Este projeto é meu portfólio pessoal, criado para exibir minhas habilidades em
 ## Objetivo:
 Este portfólio foi desenvolvido para demonstrar minhas habilidades e experiências como desenvolvedor front-end. Aqui, você pode conferir meus conhecimentos em tecnologias como HTML, CSS, JavaScript, além de ver meus projetos anteriores e entrar em contato comigo.
 
-## Como rodar o projeto:
-1. Selecione o local onde o arquivo sera colocado
-   ```bash
-   cd desktop (ou local que preferir)
-2. Clone este repositório:
-Clone o repositório usando o comando abaixo. Isso criará uma cópia do projeto no diretório escolhido:
+# Passo a Passo - Rodando o Projeto Localmente
 
-bash
-Copy
-Edit
-git clone https://github.com/pedrobaraldi/portifolio.git
-3. Navegue até o diretório do projeto:
-Agora, entre na pasta onde o projeto foi clonado:
+Este guia fornece as instruções completas para rodar o projeto localmente na sua máquina, desde a abertura do CMD até a execução do código no **Live Server**.
 
-bash
-Copy
-Edit
-cd portifolio
-4. Abra o projeto no Visual Studio Code:
-Para abrir o projeto no Visual Studio Code, execute o comando:
+## 1. Abra o CMD (Prompt de Comando)
 
-bash
-Copy
-Edit
-code .
-Isso abrirá o diretório atual no VS Code.
+- Pressione a tecla `Windows` no seu teclado e digite **CMD** na busca.
+- Clique em **Prompt de Comando** para abrir o terminal.
 
-5. Instale a extensão Live Server:
-No VS Code, instale a extensão Live Server, que permite rodar o projeto diretamente no navegador e visualizar as mudanças em tempo real. Para instalar a extensão, siga os passos:
+## 2. Selecione o local onde o repositório será clonado
 
-Vá até a aba Extensões no menu lateral esquerdo do VS Code.
-Pesquise por Live Server e clique em Instalar.
-6. Execute o código no Visual Studio Code:
-Depois de instalar a extensão, clique com o botão direito no arquivo index.html e selecione a opção "Open with Live Server".
+Escolha a pasta onde deseja armazenar o projeto. Para exemplo, vamos usar a área de trabalho. No CMD, execute o seguinte comando para navegar até o local desejado:
 
-7. Visualize o portfólio no navegador:
-O Live Server abrirá automaticamente o projeto em seu navegador, e você poderá começar a navegar pelo portfólio. Qualquer alteração no código será refletida no navegador em tempo real.
+```bash
+cd Desktop  # Ou qualquer outro diretório de sua escolha
