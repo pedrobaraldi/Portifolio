@@ -1,44 +1,29 @@
-# Portfolio Contact Form
+# Portfólio de Pedro Baraldi
 
-Este é um formulário de contato utilizado em um portfólio pessoal, com integração com o Firebase para armazenamento de mensagens e o EmailJS para envio de e-mails.
+Este repositório contém o portfólio pessoal de Pedro Baraldi, desenvolvedor Front-End. O portfólio inclui informações sobre suas habilidades, projetos anteriores e uma seção de contato para possíveis colaborações ou dúvidas. O projeto é feito com HTML, CSS e JavaScript, e possui funcionalidades interativas, como navegação suave e carrossel de projetos.
 
 ---
 
 ## :bulb: Funcionalidades
 
-- **Envio de mensagens**: Os usuários podem preencher o formulário de contato para enviar mensagens.
-- **Armazenamento de dados**: As mensagens enviadas são armazenadas no Firebase Realtime Database.
-- **Envio de e-mail**: Ao submeter o formulário, um e-mail é enviado para o dono do portfólio via EmailJS.
-- **Alerta de envio**: Após o envio, um alerta de confirmação é exibido por alguns segundos.
+- **Navegação interativa**: O portfólio conta com um menu lateral e uma versão mobile, onde o usuário pode navegar pelas seções: "Sobre", "Habilidades", "Projetos" e "Contato".
+- **Carrossel de Projetos**: Exibição de projetos anteriores com funcionalidade de navegação suave entre os itens.
+- **Formulário de Contato**: Uma área para que visitantes possam enviar mensagens, com integração ao Firebase para armazenamento e ao EmailJS para envio de e-mails.
 
 ---
 
 ## :gear: Tecnologias Utilizadas
 
-- **HTML5**: Estrutura da página e elementos do formulário.
-- **CSS3**: Estilização e layout responsivo.
-- **JavaScript**: Interatividade e funcionalidades de envio de dados.
-- **Firebase**: Armazenamento de dados no Firebase Realtime Database.
-- **EmailJS**: Envio de e-mails após a submissão do formulário.
-- **Material Icons**: Ícones usados para o menu e navegação.
+- **HTML5**: Estrutura da página e organização das seções.
+- **CSS3**: Estilização e layout responsivo, utilizando flexbox e grids para adaptação em diferentes dispositivos.
+- **JavaScript**: Implementação da lógica de interatividade, como navegação entre seções e controle do carrossel.
+- **Firebase**: Armazenamento de mensagens enviadas pelo formulário de contato.
+- **EmailJS**: Envio de e-mails com os dados do formulário de contato.
+- **Material Icons**: Ícones utilizados para ilustrar as seções e o menu.
 
 ---
 
-## :file_folder: Estrutura do Código
+## :file_folder: Estrutura do Projeto
 
-### HTML
-
-O código HTML define a estrutura da página, com seções para **About**, **Skills**, **Projects**, e **Contact**. Ele também inclui o formulário de contato, onde os dados do usuário (nome, e-mail e mensagem) são capturados e enviados para o Firebase e EmailJS.
-
-### JavaScript
-
-O código JavaScript é responsável por:
-
-- **Submissão do Formulário**: Quando o formulário é enviado, os dados são coletados, armazenados no Firebase e um e-mail é enviado.
-- **Menu de Navegação**: Implementa funcionalidades para navegação suave entre seções da página.
-- **Deslizar os Itens**: Implementação de carrossel para navegação entre projetos.
-
----
-
-## :file_folder: Estrutura de Arquivos
+O projeto é composto pelos seguintes arquivos:
 
