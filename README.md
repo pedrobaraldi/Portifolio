@@ -1,29 +1,39 @@
-# Portfólio de Pedro Baraldi
+# 🌐 **Portfólio - Desenvolvedor Front-End**
 
-Este repositório contém o portfólio pessoal de Pedro Baraldi, desenvolvedor Front-End. O portfólio inclui informações sobre suas habilidades, projetos anteriores e uma seção de contato para possíveis colaborações ou dúvidas. O projeto é feito com HTML, CSS e JavaScript, e possui funcionalidades interativas, como navegação suave e carrossel de projetos.
+Bem-vindo ao meu portfólio! Aqui, você encontrará uma demonstração das minhas habilidades como desenvolvedor Front-End, com foco em design responsivo, interatividade e boas práticas de desenvolvimento.
 
----
-
-## :bulb: Funcionalidades
-
-- **Navegação interativa**: O portfólio conta com um menu lateral e uma versão mobile, onde o usuário pode navegar pelas seções: "Sobre", "Habilidades", "Projetos" e "Contato".
-- **Carrossel de Projetos**: Exibição de projetos anteriores com funcionalidade de navegação suave entre os itens.
-- **Formulário de Contato**: Uma área para que visitantes possam enviar mensagens, com integração ao Firebase para armazenamento e ao EmailJS para envio de e-mails.
+Este portfólio foi construído utilizando **HTML**, **CSS** e **JavaScript**, com algumas integrações modernas para oferecer uma experiência fluida e intuitiva.
 
 ---
 
-## :gear: Tecnologias Utilizadas
+## 🛠️ **Funcionalidades**
 
-- **HTML5**: Estrutura da página e organização das seções.
-- **CSS3**: Estilização e layout responsivo, utilizando flexbox e grids para adaptação em diferentes dispositivos.
-- **JavaScript**: Implementação da lógica de interatividade, como navegação entre seções e controle do carrossel.
-- **Firebase**: Armazenamento de mensagens enviadas pelo formulário de contato.
-- **EmailJS**: Envio de e-mails com os dados do formulário de contato.
-- **Material Icons**: Ícones utilizados para ilustrar as seções e o menu.
+- **Navegação intuitiva**: Menu lateral e menu móvel para facilitar a navegação pelas seções.
+- **Seções dinâmicas**: "About", "Skills", "Projects" e "Contact", todas interativas.
+- **Carrossel de projetos**: Navegação suave entre os itens do carrossel.
+- **Animações**: Transições suaves e efeitos de animação para uma experiência mais envolvente.
+- **Download do CV**: Opção para baixar o currículo em PDF.
+- **Responsividade**: Design que se adapta perfeitamente a dispositivos móveis e desktop.
+- **Integração com a API do Google**: Uso de **Material Symbols** e **Google Fonts** para ícones e fontes personalizadas.
 
 ---
 
-## :file_folder: Estrutura do Projeto
+## 🖥️ **Tecnologias Utilizadas**
+
+- **HTML5**: Estruturação e organização das seções da página.
+- **CSS3**: Design moderno e responsivo, utilizando Flexbox e Grid.
+- **JavaScript**: Lógica de interatividade, como navegação suave entre seções e controle do carrossel de projetos.
+- **API do Google**: Para ícones personalizados (**Material Symbols**) e fontes estilizadas (**Google Fonts**).
+
+---
+
+## 🎯 **Objetivo do Projeto**
+
+Este portfólio tem como objetivo apresentar minhas habilidades em **HTML**, **CSS**, **JavaScript** e minhas experiências com desenvolvimento de projetos front-end. Ao navegar por este portfólio, você encontrará seções interativas que destacam minhas habilidades, projetos anteriores e formas de entrar em contato.
+
+---
+
+## 📂 **Estrutura do Projeto**
 
 O projeto é composto pelos seguintes arquivos:
 
