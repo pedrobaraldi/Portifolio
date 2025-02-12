@@ -34,7 +34,7 @@ O objetivo deste portfólio é **demonstrar** minhas habilidades e experiências
 
 ---
 
-## 📂 **Estrutura do Projeto**
+## 🗃️ **Estrutura do Projeto**
 
 O projeto é composto pelos seguintes arquivos:
 
