@@ -39,9 +39,9 @@ O objetivo deste portfólio é **demonstrar** minhas habilidades e experiências
 O projeto é composto pelos seguintes arquivos:
 
 **/Portifolio**
-<br>│── /dowload
+<br>│── /📂 dowload
 <br>│   ├── Curriculo.pdf
-<br>│── /img
+<br>│── /📂 img
 <br>│   ├── Tech icons  
 │── index.html
 <br>│── script.js
