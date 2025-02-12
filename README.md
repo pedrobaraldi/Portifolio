@@ -67,7 +67,7 @@ O projeto é composto pelos seguintes arquivos:
 
 ## 💬 **Contato**
 
-- **E-mail**: [pedro@exemplo.com](mailto:pedro@exemplo.com)
+- **E-mail**: [pedrobaraldi02@gmail.com](mailto:pedrobaraldi02@gmail.com)
 - **LinkedIn**: [Pedro Baraldi](https://www.linkedin.com/in/pedro-baraldi-sa/)
 
 ---
