@@ -1,21 +1,44 @@
-# Portfólio - Desenvolvedor Front-End
+# Portfolio Contact Form
 
-Este projeto é meu portfólio pessoal, criado para exibir minhas habilidades em desenvolvimento front-end. Ele foi construído utilizando **HTML**, **CSS** e **JavaScript** para proporcionar uma experiência fluida e moderna, com foco na responsividade e interatividade.
+Este é um formulário de contato utilizado em um portfólio pessoal, com integração com o Firebase para armazenamento de mensagens e o EmailJS para envio de e-mails.
 
-## Funcionalidades:
-- Navegação intuitiva com **barra lateral** e **menu móvel**.
-- Seções dinâmicas: **About**, **Skills**, **Projects** e **Contact**.
-- Interatividade com animações e transições suaves.
-- **Carrossel de projetos** com navegação entre os itens.
-- Opção para **download do CV** em formato PDF.
-- Design responsivo, adaptável a dispositivos móveis e desktop.
-- Integração com a **API do Google** para uso de ícones e fontes personalizadas (Material Symbols e Google Fonts).
+---
 
-## Tecnologias utilizadas:
-- **HTML5** (estruturação da página)
-- **CSS3** (estilização e design responsivo)
-- **JavaScript** (interatividade, navegação entre seções e controle do carrossel de projetos)
-- **API do Google** (para ícones e fontes)
+## :bulb: Funcionalidades
 
-## Objetivo:
-Este portfólio foi desenvolvido para demonstrar minhas habilidades e experiências como desenvolvedor front-end. Aqui, você pode conferir meus conhecimentos em tecnologias como HTML, CSS, JavaScript, além de ver meus projetos anteriores e entrar em contato comigo
+- **Envio de mensagens**: Os usuários podem preencher o formulário de contato para enviar mensagens.
+- **Armazenamento de dados**: As mensagens enviadas são armazenadas no Firebase Realtime Database.
+- **Envio de e-mail**: Ao submeter o formulário, um e-mail é enviado para o dono do portfólio via EmailJS.
+- **Alerta de envio**: Após o envio, um alerta de confirmação é exibido por alguns segundos.
+
+---
+
+## :gear: Tecnologias Utilizadas
+
+- **HTML5**: Estrutura da página e elementos do formulário.
+- **CSS3**: Estilização e layout responsivo.
+- **JavaScript**: Interatividade e funcionalidades de envio de dados.
+- **Firebase**: Armazenamento de dados no Firebase Realtime Database.
+- **EmailJS**: Envio de e-mails após a submissão do formulário.
+- **Material Icons**: Ícones usados para o menu e navegação.
+
+---
+
+## :file_folder: Estrutura do Código
+
+### HTML
+
+O código HTML define a estrutura da página, com seções para **About**, **Skills**, **Projects**, e **Contact**. Ele também inclui o formulário de contato, onde os dados do usuário (nome, e-mail e mensagem) são capturados e enviados para o Firebase e EmailJS.
+
+### JavaScript
+
+O código JavaScript é responsável por:
+
+- **Submissão do Formulário**: Quando o formulário é enviado, os dados são coletados, armazenados no Firebase e um e-mail é enviado.
+- **Menu de Navegação**: Implementa funcionalidades para navegação suave entre seções da página.
+- **Deslizar os Itens**: Implementação de carrossel para navegação entre projetos.
+
+---
+
+## :file_folder: Estrutura de Arquivos
+
