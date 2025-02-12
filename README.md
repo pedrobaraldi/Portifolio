@@ -45,13 +45,13 @@ O projeto é composto pelos seguintes arquivos:
 - **script.js**: Lógica de interatividade, como o carrossel de projetos.
 - **assets/**: Pasta com imagens e ícones utilizados no site.
 
-- │── /dowload
-- │   ├── Curriculo.pdf
-- │── /img
-- │   ├── Tech icons  
-- │── index.html
-- │── script.js
-- │── style.css
+<br>│── /dowload
+<br>│   ├── Curriculo.pdf
+<br>│── /img
+<br>│   ├── Tech icons  
+<br>│── index.html
+<br>│── script.js
+<br>│── style.css
 
 ---
 
