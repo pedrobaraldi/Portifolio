@@ -37,3 +37,53 @@ Este portfólio tem como objetivo apresentar minhas habilidades em **HTML**, **C
 
 O projeto é composto pelos seguintes arquivos:
 
+
+
+---
+
+## 🚀 **Como Executar o Projeto Localmente**
+
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/seu-usuario/portifolio.git
+    ```
+
+2. **Abra o diretório do projeto**:
+    ```bash
+    cd portifolio
+    ```
+
+3. **Abra o projeto no Visual Studio Code**:
+    ```bash
+    code .
+    ```
+
+4. **Instale a extensão Live Server** no VS Code para visualizar o projeto em tempo real.
+
+5. **Execute o projeto**:
+    Clique com o botão direito do mouse no arquivo `index.html` e selecione **"Open with Live Server"** para abrir no navegador.
+
+---
+
+## 💬 **Contato**
+
+- **E-mail**: [pedro@exemplo.com](mailto:pedro@exemplo.com)
+- **LinkedIn**: [Pedro Baraldi](https://www.linkedin.com/in/pedro-baraldi-sa/)
+
+---
+
+## 📝 **Licença**
+
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT), o que permite o uso e modificação do código.
+
+---
+
+## 💡 **Contribuições**
+
+Se você quiser contribuir para o projeto, sinta-se à vontade para enviar **pull requests**. Agradeço pelo feedback!
+
+---
+
+Feito com ❤️ por **Pedro Baraldi**.
+
+
