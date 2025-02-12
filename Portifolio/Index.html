@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="icon"  href="/img/favicon.png">
+    <link rel="stylesheet" href="./style.css">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+  />
+</head>
+<body>
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <img class="logo-img" src="https://sujeitoprogramador.com/steve.png" alt="Foto do usuario">
+        </header>
+        <nav>
+            <button onclick="scrollToSection('about')">
+                <span>
+                    <i class="material-symbols-outlined">Person</i>
+                    <span>About</span>
+                </span>
+            </button>
+            <button onclick="scrollToSection('skills')">
+                <span>
+                    <i class="material-symbols-outlined">School</i>
+                    <span>Skills</span>
+                </span>
+            </button>
+            <button onclick="scrollToSection('projects')">
+                <span>
+                    <i class="material-symbols-outlined">Code</i>
+                    <span>Projects</span>
+                </span>
+            </button>
+            <button onclick="scrollToSection('contact')">
+                <span>
+                    <i class="material-symbols-outlined">Forum</i>
+                    <span>Contact</span>
+                </span>
+            </button>
+        </nav>
+    </aside>
+
+    <button class="button-mobile" onclick="toggleMenu()">
+            <i class="material-symbols-outlined">Menu</i>
+            <span>Menu</span>
+    </button>
+    <nav class="menu-mobile" id="menu-mobile">
+        <button class="button-close" onclick="toggleMenu()">
+            <span>
+                <i class="material-symbols-outlined">Close</i>
+            </span>
+        </button> 
+        <button onclick="scrollToSection('about')">
+            <span>
+                <i class="material-symbols-outlined">Person</i>
+                <span class="mobile-text">About</span>
+            </span>
+        </button>
+        <button onclick="scrollToSection('skills')">
+            <span>
+                <i class="material-symbols-outlined">School</i>
+                <span class="mobile-text">Skills</span>
+            </span>
+        </button>
+        <button onclick="scrollToSection('projects')">
+            <span>
+                <i class="material-symbols-outlined">Code</i>
+                <span class="mobile-text">Projects</span>
+            </span>
+        </button>
+        <button onclick="scrollToSection('contact')">
+            <span >
+                <i class="material-symbols-outlined">Forum</i>
+                <span class="mobile-text">Contact</span>
+            </span>
+        </button>
+    </nav>
+   
+    <main class="main">
+        <section id="about">
+            <p class="title">Hi, my name is,</p>
+            <h1 class="cssanimation typing">Pedro Baraldi</h1>
+            <h2 class="sub-title">Desenvolvedor Front-End</h2>
+          
+            <button>
+                <a class="download" href="./dowload/Curriculo.pdf" download="Curriculo">
+                    <span>Download CV</span>
+                </a>
+            </button>
+            <button>
+                <a class="linkedin" href="https://www.linkedin.com/in/pedro-baraldi-sa/" download="Curriculo">
+                    <span>Linkedin</span>
+                </a>
+            </button>
+
+                
+            <p class="p-section">About</p>
+            <a class="a-about">Lorem ipsum dolor sit amet. Qui nostrum sint et adipisci fugit cum porro animi non placeat voluptatem! Et fugit saepe non illo corporis rem modi corrupti. A corporis nihil eum quibusdam deserunt aut odio explicabo?</a>
+            <a class="a-about">Lorem ipsum dolor sit amet. Qui nostrum sint et adipisci fugit cum porro animi non placeat voluptatem! Et fugit saepe non illo corporis rem modi corrupti. A corporis nihil eum quibusdam deserunt aut odio explicabo?</a>
+            <a class="a-about">Lorem ipsum dolor sit amet. Qui nostrum sint et adipisci fugit cum porro animi non placeat voluptatem! Et fugit saepe non illo corporis rem modi corrupti. A corporis nihil eum quibusdam deserunt aut odio explicabo?</a>
+            <a class="a-about">Lorem ipsum dolor sit amet. Qui nostrum sint et adipisci fugit cum porro animi non placeat voluptatem! Et fugit saepe non illo corporis rem modi corrupti. A corporis nihil eum quibusdam deserunt aut odio explicabo?</a>
+            <a class="a-about">Lorem ipsum dolor sit amet. Qui nostrum sint et adipisci fugit cum porro animi non placeat voluptatem! Et fugit saepe non illo corporis rem modi corrupti. A corporis nihil eum quibusdam deserunt aut odio explicabo?</a>
+            <a class="a-about">Lorem ipsum dolor sit amet. Qui nostrum sint et adipisci fugit cum porro animi non placeat voluptatem! Et fugit saepe non illo corporis rem modi corrupti. A corporis nihil eum quibusdam deserunt aut odio explicabo?</a>
+            <a class="a-about">Lorem ipsum dolor sit amet. Qui nostrum sint et adipisci fugit cum porro animi non placeat voluptatem! Et fugit saepe non illo corporis rem modi corrupti. A corporis nihil eum quibusdam deserunt aut odio explicabo?</a>
+            <a class="a-about">Lorem ipsum dolor sit amet. Qui nostrum sint et adipisci fugit cum porro animi non placeat voluptatem! Et fugit saepe non illo corporis rem modi corrupti. A corporis nihil eum quibusdam deserunt aut odio explicabo?</a>
+        </section>
+
+        <section id="skills">
+            <p class="p-section">Skills</p>
+            <div class="wrapper">
+                <div class="box" >
+                <img src="./img/HTML5.png" class="img-skills" alt="Imagem-HTML5">
+                </div>
+
+                <div class="box" >
+                <img src="./img/CSS3.png" class="img-skills" alt="Imagem-CSS">
+                </div>
+
+                <div class="box" >
+                <img src="./img/Figma.png" class="img-skills" alt="Imagem-Figma">
+                </div>
+
+                <div class="box" >
+                <img src="./img/Git.png" class="img-skills" alt="Imagem-Git">
+                </div>
+
+                <div class="box" >
+                <img src="./img/JavaScript.png" class="img-skills" alt="Imagem-JavaScript">
+                </div>
+
+                <div class="box" >
+                <img src="./img/Nuxt JS.png" class="img-skills" alt="Imagem-NuxtJS">
+                </div>
+
+                <div class="box" >
+                <img src="./img/React.png" class="img-skills" alt="Imagem-React">
+                </div>
+
+                <div class="box" >
+                <img src="./img/Sass.png" class="img-skills" alt="Imagem-Sass">
+                </div>
+
+                <div class="box" >
+                <img src="./img/SQL Developer.png" class="img-skills" alt="Imagem-SQLDev">
+                </div>
+
+                <div class="box" >
+                <img src="./img/Vue.js.png" class="img-skills" alt="Imagem-Vue">
+                </div>
+            </div>   
+        </section>
+
+        <section id="projects">
+            <p class="p-section">Projects</p>
+            <div class="list-wrapper">
+                <ul class="list">
+
+                  <!-- <li class="item">
+                    <div class="content">
+                        <img src="./img/Vue.js.png" class="img-projects" alt="Imagem-Vue">
+                        <a class="list-text">Item 1</a></div>
+                  </li> -->
+
+                  <li class="item">
+                    <div class="content">Item 2</div>
+                  </li>
+
+                  <li class="item">
+                    <div class="content">Item 3</div>
+                  </li>
+
+                  <li class="item">
+                    <div class="content">Item 4</div>
+                  </li> 
+
+                  <li class="item">
+                    <div class="content">Item 5</div>
+                  </li>  
+
+                </ul>
+                <button onclick="handleClick('previous')" class="button button--previous" type="button">&#11164;</button>
+                <button onclick="handleClick('next')" class="button button--next" type="button">&#11166;</button>
+              </div>
+        </section>
+
+        <section id="contact">
+            <p class="p-section">Contact</p>
+            <div class="container">
+                <form action="" id="contactForm">
+                    <div class="alert">Your message sent</div>
+        
+                    <div class="inputBox">
+                        <input type="text" id="name" placeholder="Your name." />
+                    </div>
+        
+                    <div class="inputBox">
+                        <input type="email" id="emailid" placeholder="Your Email....." />
+                    </div>
+        
+                    <div class="inputBox">
+                        <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+        
+                    <div class="inputBox">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            </div>
+        </section>
+    </main>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
