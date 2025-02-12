@@ -43,7 +43,7 @@ O projeto é composto pelos seguintes arquivos:
 <br>│   ├── Curriculo.pdf
 <br>│── /img
 <br>│   ├── Tech icons  
-<br>│── index.html
+│── index.html
 <br>│── script.js
 <br>│── style.css
 
