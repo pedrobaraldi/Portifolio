@@ -1,6 +1,7 @@
 # 🌐 **Portfólio - Desenvolvedor Front-End**
 
-Bem-vindo ao meu portfólio! Aqui, você encontrará uma demonstração das minhas habilidades como desenvolvedor Front-End, com foco em design responsivo, interatividade e boas práticas de desenvolvimento.
+Bem-vindo ao meu portfólio! 🎉  
+Aqui, você encontrará uma demonstração das minhas habilidades como desenvolvedor Front-End, com foco em design responsivo, interatividade e boas práticas de desenvolvimento.
 
 Este portfólio foi construído utilizando **HTML**, **CSS** e **JavaScript**, com algumas integrações modernas para oferecer uma experiência fluida e intuitiva.
 
@@ -29,7 +30,7 @@ Este portfólio foi construído utilizando **HTML**, **CSS** e **JavaScript**, c
 
 ## 🎯 **Objetivo do Projeto**
 
-Este portfólio tem como objetivo apresentar minhas habilidades em **HTML**, **CSS**, **JavaScript** e minhas experiências com desenvolvimento de projetos front-end. Ao navegar por este portfólio, você encontrará seções interativas que destacam minhas habilidades, projetos anteriores e formas de entrar em contato.
+O objetivo deste portfólio é **demonstrar** minhas habilidades e experiências em **HTML**, **CSS** e **JavaScript**, com foco no desenvolvimento de interfaces front-end. Através de uma navegação fluida, você poderá explorar seções interativas que mostram minhas habilidades, projetos anteriores e formas de contato.
 
 ---
 
@@ -37,7 +38,10 @@ Este portfólio tem como objetivo apresentar minhas habilidades em **HTML**, **C
 
 O projeto é composto pelos seguintes arquivos:
 
-
+- **index.html**: O arquivo principal da página.
+- **style.css**: Arquivo de estilos do portfólio.
+- **script.js**: Lógica de interatividade, como o carrossel de projetos.
+- **assets/**: Pasta com imagens e ícones utilizados no site.
 
 ---
 
@@ -61,11 +65,13 @@ O projeto é composto pelos seguintes arquivos:
 4. **Instale a extensão Live Server** no VS Code para visualizar o projeto em tempo real.
 
 5. **Execute o projeto**:
-    Clique com o botão direito do mouse no arquivo `index.html` e selecione **"Open with Live Server"** para abrir no navegador.
+    Clique com o botão direito no arquivo `index.html` e selecione **"Open with Live Server"** para abrir no navegador.
 
 ---
 
 ## 💬 **Contato**
+
+Se você quiser conversar ou trocar ideias, estou disponível! 😊
 
 - **E-mail**: [pedrobaraldi02@gmail.com](mailto:pedrobaraldi02@gmail.com)
 - **LinkedIn**: [Pedro Baraldi](https://www.linkedin.com/in/pedro-baraldi-sa/)
@@ -74,16 +80,14 @@ O projeto é composto pelos seguintes arquivos:
 
 ## 📝 **Licença**
 
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT), o que permite o uso e modificação do código.
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT), permitindo que você use e modifique o código conforme desejar.
 
 ---
 
 ## 💡 **Contribuições**
 
-Se você quiser contribuir para o projeto, sinta-se à vontade para enviar **pull requests**. Agradeço pelo feedback!
+Gostou do projeto? Se quiser contribuir, fique à vontade para enviar **pull requests**. Agradeço qualquer feedback ou sugestão! 👍
 
 ---
 
 Feito com ❤️ por **Pedro Baraldi**.
-
-
