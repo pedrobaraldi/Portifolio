@@ -39,12 +39,6 @@ O objetivo deste portfólio é **demonstrar** minhas habilidades e experiências
 O projeto é composto pelos seguintes arquivos:
 
 /Portifolio
-
-- **index.html**: O arquivo principal da página.
-- **style.css**: Arquivo de estilos do portfólio.
-- **script.js**: Lógica de interatividade, como o carrossel de projetos.
-- **assets/**: Pasta com imagens e ícones utilizados no site.
-
 <br>│── /dowload
 <br>│   ├── Curriculo.pdf
 <br>│── /img
