@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
-/*------------------------------------------------------------------> GLOBAL <---------------------------------------------------------------------*/
+
 
 * {
     box-sizing: border-box;
@@ -76,9 +76,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-/*---------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*----------------------------------------------> SIDEBAR <-------------------------------------------------------*/
 
 .border {
     border: 1px solid red;
@@ -256,9 +254,6 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-/*---------------------------------------------------------------------------------------------------------------------------------------*/
-
-/*---------------------------------------------------> HOME SECTION <------------------------------------------------------------*/
 
 .parent-home {
     padding: 120px 60px 120px 60px;
@@ -316,8 +311,6 @@ body::-webkit-scrollbar-thumb {
         border-color: transparent;
     }
 }
-
-/*---------------------------------------------------> BUTTONS HOME SECTION <------------------------------------------------------------*/
 
 .download {
     position: relative;
@@ -427,7 +420,6 @@ body::-webkit-scrollbar-thumb {
     border: none;
 }
 
-/*---------------------------------------------------------------------------------------------------------------------------------------*/
 
 #about {
     padding: 120px 60px 120px 60px;
@@ -1092,6 +1084,18 @@ body::-webkit-scrollbar-thumb {
         font-size: 12px;
     }
 
+    #about {
+        padding: 20px;
+    }
+
+    #contact {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 0px;
+    }
+
     .typing {
         width: 310px;
     }
@@ -1179,6 +1183,8 @@ body::-webkit-scrollbar-thumb {
     .parent-projects {
         grid-template-columns: repeat(1, 1fr);
     }
+
+
 }
 
 /* 375px */
@@ -1193,6 +1199,18 @@ body::-webkit-scrollbar-thumb {
 
     p {
         font-size: 12px;
+    }
+
+    #about {
+        padding: 10px;
+    }
+
+    #contact {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 0px;
     }
 
     .typing {
