@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+
+<body>
+  <aside class="sidebar">
+    <header class="sidebar-header">
+      <img class="logo-img" src="./img/home-img.png" alt="Foto do Usuário" />
+    </header>
+    <nav>
+      <button onclick="scrollToSection('home')">
+        <span>
+          <i class="material-symbols-outlined">Home</i>
+          <span>Home</span>
+        </span>
+      </button>
+      <button onclick="scrollToSection('about')">
+        <span>
+          <i class="material-symbols-outlined">person</i>
+          <span>Sobre mim</span>
+        </span>
+      </button>
+      <button onclick="scrollToSection('skills')">
+        <span>
+          <i class="material-symbols-outlined">School</i>
+          <span>Conhecimentos</span>
+        </span>
+      </button>
+      <button onclick="scrollToSection('projects')">
+        <span>
+          <i class="material-symbols-outlined">code</i>
+          <span>Projetos</span>
+        </span>
+      </button>
+      <button onclick="scrollToSection('contact')">
+        <span>
+          <i class="material-symbols-outlined">email</i>
+          <span>Contato</span>
+        </span>
+      </button>
+    </nav>
+  </aside>
+  <!-- Criando um menu mobile -->
+  <button class="button-mobile" onclick="toggleMenu()">
+    <i class="material-symbols-outlined">menu</i>
+    <span>Menu</span>
+  </button>
+  <nav class="menu-mobile" id="menu-mobile">
+    <button onclick="toggleMenu()" class="button-close">
+      <span><i class="material-symbols-outlined">close</i></span>
+    </button>
+    <button onclick="scrollToSection('home')">
+      <span>
+        <i class="material-symbols-outlined">Home</i>
+        <span>Home</span>
+      </span>
+    </button>
+    <button onclick="scrollToSection('about')">
+      <span>
+        <i class="material-symbols-outlined">person</i>
+        <span>Sobre mim</span>
+      </span>
+    </button>
+    <button onclick="scrollToSection('skills')">
+      <span>
+        <i class="material-symbols-outlined">School</i>
+        <span>Conhecimentos</span>
+      </span>
+    </button>
+    <button onclick="scrollToSection('projects')">
+      <span>
+        <i class="material-symbols-outlined">code</i>
+        <span>Projetos</span>
+      </span>
+    </button>
+    <button onclick="scrollToSection('contact')">
+      <span>
+        <i class="material-symbols-outlined">email</i>
+        <span>Contato</span>
+      </span>
+    </button>
+
+  </nav>
+  <main class="main">
+
+    <section id="home">
+      <div class="parent-home">
+
+        <div class="div1-home">
+
+          <h2>Olá, meu nome é</h2>
+
+          <h1 class="cssanimation typing">Pedro Baraldi</h1>
+          <p>Desenvolvedor Front-End</p>
+        </div>
+
+        <div class="div2-home">
+
+          <img class="photo" src="./img/home-img.png" alt="Foto do usuario">
+        </div>
+
+        <div class="div4-home">
+
+          <button class="home-button">
+            <a class="download" href="./download/Curriculo.pdf" download="Curriculo">
+              <span>Download CV</span>
+            </a>
+          </button>
+
+          <button class="home-button">
+            <a class="linkedin" href="https://www.linkedin.com/in/pedro-baraldi-sa/">
+              <span>Linkedin</span>
+            </a>
+          </button>
+
+        </div>
+      </div>
+
+
+      <section id="about">
+        <div class="parent-about">
+
+
+
+
+          <div class="text-about">
+            <div class="div1-about">
+              <h3>Sobre</h3>
+            </div>
+            <p class="p-about">
+              Sou um desenvolvedor front-end apaixonado por criar interfaces que não só funcionam bem, mas
+              também são bonitas e intuitivas. Gosto de transformar ideias em experiências visuais que fazem sentido
+              para o usuário, sempre buscando equilíbrio entre design e performance.
+            </p>
+            <br>
+            <p class="p-about">
+              Trabalho com Vue.js, Nuxt.js, React, HTML, CSS e JavaScript, além de UI/UX. Gosto de brincar com
+              animações, otimizar performance e garantir que tudo fique fluido e responsivo. Também utilizo Figma
+              para prototipação e Git/GitHub para versionamento.
+            </p>
+            <br>
+            <p class="p-about">
+              Formado em Análise e Desenvolvimento de Sistemas pela FIAP, estou sempre aprendendo novas
+              tecnologias e acompanhando as tendências do mercado. Acredito que a melhor forma de evoluir é
+              testar, errar, ajustar e continuar criando.
+            </p>
+            <br>
+            <p class="p-about">
+              No fim das contas, meu objetivo é simples: desenvolver interfaces que fazem diferença, que sejam
+              agradáveis de usar e que tornem a experiência digital algo realmente bom. Se der para deixar o código
+              bonito no processo, melhor ainda!
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="skills">
+
+
+
+        <div class="parent-skills">
+
+          <div class="div1-skills">
+            <h3>Conhecimentos</h3>
+            <p></p>
+          </div>
+
+
+
+          <div class="div3-skills">
+            <article class="article-skills">
+              <img src="./img/html.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/css.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/javascript.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/sass.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/react.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/nextjs.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/vue.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/nuxt.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/firebase.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/figma.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/git.png" alt="ícone do styled" />
+
+            </article>
+
+            <article class="article-skills">
+              <img src="./img/sql.png" alt="ícone do styled" />
+
+            </article>
+
+          </div>
+
+
+        </div>
+
+      </section>
+
+
+
+      <section id="projects">
+
+
+        <div class="parent-projects">
+          <div class="div1-projects">
+            <h3>Projetos</h3>
+          </div>
+          <div class="card-projects">
+            <div class="card-details">
+              <img src="./img/lumon.png" width="110px" height="110px" alt="ícone do styled" />
+              <p class="text-title">Lumon</p>
+              <p class="text-body">O projeto Severance Fan Page é uma página dedicada à série Severance, desenvolvida
+                com HTML, CSS e JavaScript, oferecendo informações e interatividade para os fãs.</p>
+            </div>
+            <button class="card-button"
+              onclick="window.location.href='https://github.com/pedrobaraldi/SeveranceSite'">Visualizar</button>
+          </div>
+          <div class="card-projects">
+            <div class="card-details">
+              <img src="./img/clima.png" alt="ícone do styled" />
+              <p class="text-title">Weather Forecast</p>
+              <p class="text-body">O projeto Weather Forecast é uma aplicação web simples desenvolvida com HTML, CSS e
+                JavaScript, que utiliza a API do OpenWeatherMap para exibir previsões do tempo em tempo real.</p>
+            </div>
+            <button class="card-button"
+              onclick="window.location.href='https://pedrobaraldi.github.io/WeatherForecast/'">Visualizar</button>
+          </div>
+          <div class="card-projects">
+            <div class="card-details">
+              <img src="./img/relogio.png" alt="ícone do styled" />
+              <p class="text-title">Clock</p>
+              <p class="text-body">O projeto Relógio Digital é uma aplicação simples desenvolvida com HTML, CSS e
+                JavaScript, que exibe a hora em tempo real de forma estilizada</p>
+            </div>
+            <button class="card-button"
+              onclick="window.location.href='https://github.com/pedrobaraldi/Projetos-Portifolio/tree/main/Relogio'">Visualizar</button>
+          </div>
+          <div class="card-projects">
+            <div class="card-details">
+              <img src="./img/construcao.png" alt="ícone do styled" />
+              <p class="text-title">Em contrução...</p>
+              <p class="text-body">Estamos no modo mestre de obras, martelando código e levantando as bases dos próximos
+                projetos.</p>
+            </div>
+            <button class="card-button" onclick="window.location.href='#link'">Visualizar</button>
+          </div>
+          <div class="card-projects">
+            <div class="card-details">
+              <img src="./img/construcao.png" alt="ícone do styled" />
+              <p class="text-title">Em contrução...</p>
+              <p class="text-body">Estamos no modo mestre de obras, martelando código e levantando as bases dos próximos
+                projetos.</p>
+            </div>
+            <button class="card-button" onclick="window.location.href='#link'">Visualizar</button>
+          </div>
+          <div class="card-projects">
+            <div class="card-details">
+              <img src="./img/construcao.png" alt="ícone do styled" />
+              <p class="text-title">Em contrução...</p>
+              <p class="text-body">Estamos no modo mestre de obras, martelando código e levantando as bases dos próximos
+                projetos.</p>
+            </div>
+            <button class="card-button" onclick="window.location.href='#link'">Visualizar</button>
+          </div>
+        </div>
+
+
+      </section>
+
+
+
+
+      <section id="contact">
+        <div class="parent-contact">
+          <h3>Entre em contato</h3>
+          <div class="div2-contact">
+
+            <img class="contact-img" src="./img/contact-img.png" alt="Foto do Usuário" />
+          </div>
+
+          <div class="div3-contact">
+            <div class="container">
+              <form action="" id="contactForm">
+                <div class="alert">Sua mensagem foi enviada</div>
+
+                <div class="inputBox">
+                  <input type="text" id="name" placeholder="Seu nome" />
+                </div>
+
+                <div class="inputBox">
+                  <input type="email" id="emailid" placeholder="Seu Email" />
+                </div>
+
+                <div class="inputBox">
+                  <textarea id="msgContent" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                </div>
+
+                <div class="inputBox">
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+
+
+  </main>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "7gn5rZ15B04XRr24m",
+      });
+    })();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
