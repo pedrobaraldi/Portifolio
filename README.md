@@ -11,7 +11,6 @@ Este portfólio foi construído utilizando **HTML**, **CSS** e **JavaScript**, c
 
 - **Navegação intuitiva**: Menu lateral e menu móvel para facilitar a navegação pelas seções.
 - **Seções dinâmicas**: "About", "Skills", "Projects" e "Contact", todas interativas.
-- **Carrossel de projetos**: Navegação suave entre os itens do carrossel.
 - **Animações**: Transições suaves e efeitos de animação para uma experiência mais envolvente.
 - **Download do CV**: Opção para baixar o currículo em PDF.
 - **Responsividade**: Design que se adapta perfeitamente a dispositivos móveis e desktop.
