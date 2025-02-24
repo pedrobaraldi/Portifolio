@@ -1298,3 +1298,123 @@ body::-webkit-scrollbar-thumb {
         font-size: 12px;
     }
 }
+
+@media (max-height: 932px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 29px;
+        text-align: center;
+    }
+
+    #about {
+        padding: 10px;
+    }
+
+    #contact {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 0px;
+    }
+
+    .typing {
+        width: 280px;
+    }
+
+    .parent-home {
+        padding: 20px 10px;
+    }
+
+    .home-image {
+        width: 60%;
+    }
+
+    .projects-container {
+        display: block;
+    }
+
+    .div1-skills,
+    .div3-skills {
+        width: 100%;
+    }
+
+    .article-skills {
+        width: 80%;
+        height: 4rem;
+    }
+
+    .article-skills img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .parent-skills {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* Uma coluna */
+        grid-template-rows: 1.8fr 1fr;
+        /* Duas linhas de tamanho igual */
+        padding: 40px 10px;
+    }
+
+    /* Div 1 */
+    .div1-skills {
+        grid-column: 1 / 2;
+        /* Coloca na primeira coluna */
+        grid-row: 1;
+        /* Coloca na primeira linha */
+    }
+
+    /* Div 3 */
+    .div3-skills {
+        grid-column: 1 / 2;
+        /* Coloca na primeira coluna */
+        grid-row: 2;
+        /* Coloca na segunda linha */
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .parent-projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .download {
+        margin-top: 12px;
+        position: relative;
+        display: inline-block;
+        padding: 6px 12px;
+        border: 2px solid #e59a19;
+        color: #fefefe;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .linkedin {
+        margin-top: 12px;
+        position: relative;
+        display: inline-block;
+        padding: 6px 12px;
+        border: 2px solid #e59a19;
+        color: #fefefe;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
